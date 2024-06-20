@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+.Cont {
+  height: calc(100vh - 60px);
+  background-color: rgb(14, 245, 245);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  height: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imgg {
+  height: calc(100vh - 60px);
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
   display: flex;
+  height: 100%;
+  width: 100vw;
   flex-direction: column;
+  justify-self: start;
+  align-items: start;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+  color: aliceblue;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+}
+
+span {
+  color: rgb(68, 0, 255);
+}
+
+/****************************************************** Admin Home *****************************************************/
+
+body {
+  background: #599fd9;
+  background: -webkit-linear-gradient(to right, #599fd9, #c2e59c);
+  background: linear-gradient(to right, #599fd9, #c2e59c);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.AdminHome {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.Adhomenav {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Add background color if needed */
+  z-index: 1000;
+}
+
+.nvitems {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
   align-items: center;
+}
+
+.nvitems li {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nvitems li:hover {
+  background-color: rgb(15, 113, 198);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nvitemsA {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+  align-items: center;
+}
+.nvitemsA li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.nvitemsA li:hover {
+  background-color: rgb(15, 113, 198);
+}
+.Adhomecon {
+  margin-left: 300px; /* Match the width of .Adhomenav */
+  width: calc(100% - 300px); /* Adjust to fill the remaining space */
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+/* Add this to your CSS file */
+.custom-card {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 1rem;
+  overflow: hidden; /* Ensure no overflow */
+}
+/************CUSTOM MODEL ******************/
+
+.modalBackground {
+  position: fixed;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  opacity: 0.8;
+}
+
+.modalContainer {
+  background-color: white;
+  box-shadow: 0px 0px 0px #888;
+  padding: 10px;
+  border-radius: 10px;
+  height: 600px;
+  width: 500px;
 }
