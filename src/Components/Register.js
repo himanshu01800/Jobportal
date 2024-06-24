@@ -59,7 +59,7 @@ const Register = () => {
           <div className="container-fluid vh-100 d-flex   Regi">
           <div className="row " >
             <div className="col-1"></div>
-          <div className="col-5 h-100 bg-light align-content-center justify-content-center  Regimg">
+          <div className="col-5 h-100 mt-5 bg-light align-content-center justify-content-center  Regimg">
           <img src={reg} className="img-fluid" alt="Responsive image" />
           </div>
           <div className="col-5 h-100 bg-light ms-5 mt-5">

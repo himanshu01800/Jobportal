@@ -139,3 +139,11 @@ body {
   height: 600px;
   width: 500px;
 }
+.custom-link {
+  text-decoration: none;
+  color: inherit; /* or specify your desired color */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}

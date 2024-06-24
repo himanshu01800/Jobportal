@@ -19,7 +19,7 @@ function EmployerDetail() {
 
   return (
     <div className="AdminHome">
-    <SideNavE/>
+
   
   <div className="page-content   Adhomecon" id="content">
     <div className="d-flex justify-content-center align-items-center vh-100">

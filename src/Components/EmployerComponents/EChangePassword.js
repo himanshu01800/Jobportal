@@ -16,9 +16,7 @@ const EChangePassword = () => {
   return (
 
     <div className="AdminHome">
-    <SideNavE/>
-  
-  <div className="page-content   Adhomecon" id="content">
+   <div className="page-content   Adhomecon" id="content">
   <div className="container">
       <div className="row justify-content-center">
         <div className="col-md-6">

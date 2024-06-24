@@ -5,7 +5,7 @@ import SideNavJ from '../SideNavJ'
 const JobSeekerHome = () => {
   return (
     <div className='AdminHome'>
-      <SideNavJ/>
+     
     </div>
   )
 }

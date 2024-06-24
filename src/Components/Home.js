@@ -8,7 +8,6 @@ import './Home.css'; // Make sure to import the CSS file
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className='Cont'>
         <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
           <div className="carousel-indicators">

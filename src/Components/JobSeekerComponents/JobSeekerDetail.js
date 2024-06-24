@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import SideNavJ from '../SideNavJ';
-
-
 
 function JobSeekerDetail() {
   const [formData, setFormData] = useState({
@@ -20,8 +17,7 @@ function JobSeekerDetail() {
 
   return (
     <div className="AdminHome">
-    <SideNavJ/>
-  
+    
   <div className="page-content   Adhomecon" id="content">
     <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="col-md-6">

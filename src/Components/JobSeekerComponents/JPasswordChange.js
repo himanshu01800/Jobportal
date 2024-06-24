@@ -17,7 +17,7 @@ const JChangePassword = () => {
   return (
 
     <div className="AdminHome">
-    <SideNavJ/>
+  
   
   <div className="page-content   Adhomecon" id="content">
   <div className="container">

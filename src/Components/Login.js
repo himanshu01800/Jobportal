@@ -12,8 +12,8 @@ const Login = ({onLogin}) => {
  const  handleLogin = async (e) => {
     e.preventDefault();
     // Add your login logic here
-      if(userId === "Admin") nav('/adminhome')
-      else if(userId=='Employer') nav('/emphome')
+      if(userId === "Admin") nav('/Admin')
+      else if(userId=='Employer') nav('/Employer')
       else if(userId=='Student') nav('/Jobseeker')
        };
 
